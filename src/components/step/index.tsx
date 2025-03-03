@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import type { IconProps } from "@tabler/icons-react";
+import type { LucideProps } from "lucide-react-native";
 
 
 import { colors } from "@/styles/theme";
@@ -8,7 +8,7 @@ import { s } from "./style";
 type Props = {
     title: string
     description: string
-    icon: React.ComponentType<IconProps>
+    icon: React.ComponentType<LucideProps>;
 }
 
 export function Step({ title, description, icon: Icon }: Props) {
